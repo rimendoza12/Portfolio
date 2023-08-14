@@ -1,0 +1,16 @@
+.contactSection{
+   
+    width:100%;
+    background-image:url('https://img.freepik.com/free-vector/gradient-minimalist-background_23-2149974331.jpg?w=360');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    border: 20px solid #E29578;
+  
+}
+.formAlign{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+}
