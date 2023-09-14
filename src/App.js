@@ -1,19 +1,26 @@
-import React from 'react';
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
-
-import OnePage from './Components/pages/OnePage/OnePage';
-import { Box } from '@mui/material';
-
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Experience from "./Components/Footer/Footer";
+import Intro from "./Components/Intro/Intro";
+import Navbar from "./Components/Navbar/Navbar";
+import Projects from "./Components/Projects/Projects";
 
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path ='/' element={<OnePage/>}/>
-      </Routes>
-     </BrowserRouter>
+    <div className="App">
+      <Navbar />
+      <Intro />
+      <About />
+      <Projects/>
+      
+      <Contact />
+      <Footer />
+    
+    </div>
   );
 }
 
 export default App;
+
